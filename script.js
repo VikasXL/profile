@@ -23,10 +23,10 @@ function populateGallery(targetElementId, photoFilenames, photosFolder)
 
     // Create a new img element
     const img = document.createElement("img");
-    img.setAttribute("width", "309");
-    img.setAttribute("height", "309");
+     img.setAttribute("width", "309");
+     img.setAttribute("height", "400");
     img.setAttribute("src", photosFolder + "img" + fileName + ".jpg");
-    img.setAttribute("alt", "A cute cat");
+    img.setAttribute("alt", "A coder");
     img.setAttribute("loading", "lazy");
 
     // Append the img element to the picture element
